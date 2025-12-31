@@ -14,3 +14,6 @@ This repository contains my daily SQL practice for Data Analyst and Data Science
 - Subqueries
 
 📅 Started on: Day 1
+Day 1: Added basic SELECT and WHERE SQL queries
+✔ SELECT  
+✔ WHERE  
