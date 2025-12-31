@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   update-progress:
     runs-on: ubuntu-latest
@@ -12,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Count completed days
         id: count
@@ -25,7 +30,6 @@ jobs:
           TOTAL=100
           PERCENT=$((DAYS * 100 / TOTAL))
 
-          # Build progress bar (10 blocks)
           FILLED=$((PERCENT / 10))
           EMPTY=$((10 - FILLED))
 
@@ -36,10 +40,10 @@ jobs:
           sed -i "s|\\*\\*Progress:\\*\\*.*|**Progress:** $DAYS / $TOTAL Days Completed|" README.md
           sed -i "s|\\*\\*Progress Bar:\\*\\*.*|**Progress Bar:** $BAR ($PERCENT%)|" README.md
 
-      - name: Commit changes
+      - name: Commit and push changes
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions@users.noreply.github.com"
           git add README.md
           git commit -m "Auto-update progress tracker" || echo "No changes"
           git push
