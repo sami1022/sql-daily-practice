@@ -1,8 +1,9 @@
 ![SQL](https://img.shields.io/badge/SQL-Structured%20Query%20Language-blue)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
 ![GitHub](https://img.shields.io/badge/GitHub-Daily%20Commits-black)
-![100 Days](https://img.shields.io/badge/Challenge-100%20Days%20of%20SQL-green)
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Challenge](https://img.shields.io/badge/Challenge-100%20Days%20of%20SQL-green)
+![Progress](https://img.shields.io/github/commit-activity/m/YOUR_GITHUB_USERNAME/100-days-of-sql?label=Progress&color=green)
+![Days](https://img.shields.io/badge/Days%20Completed-1%2F100-blue)
 
 
 # sql-daily-practice
