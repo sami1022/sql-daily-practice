@@ -1,3 +1,10 @@
+![SQL](https://img.shields.io/badge/SQL-Structured%20Query%20Language-blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
+![GitHub](https://img.shields.io/badge/GitHub-Daily%20Commits-black)
+![100 Days](https://img.shields.io/badge/Challenge-100%20Days%20of%20SQL-green)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+
+
 # sql-daily-practice
 Daily SQL practice for Data Analyst / Data Science interviews
 
