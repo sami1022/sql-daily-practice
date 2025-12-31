@@ -1,0 +1,45 @@
+name: Auto Update SQL Progress
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-progress:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Count completed days
+        id: count
+        run: |
+          DAYS=$(ls -d Day*/ 2>/dev/null | wc -l)
+          echo "days=$DAYS" >> $GITHUB_OUTPUT
+
+      - name: Update README progress
+        run: |
+          DAYS=${{ steps.count.outputs.days }}
+          TOTAL=100
+          PERCENT=$((DAYS * 100 / TOTAL))
+
+          # Build progress bar (10 blocks)
+          FILLED=$((PERCENT / 10))
+          EMPTY=$((10 - FILLED))
+
+          BAR=""
+          for i in $(seq 1 $FILLED); do BAR="${BAR}▰"; done
+          for i in $(seq 1 $EMPTY); do BAR="${BAR}▱"; done
+
+          sed -i "s|\\*\\*Progress:\\*\\*.*|**Progress:** $DAYS / $TOTAL Days Completed|" README.md
+          sed -i "s|\\*\\*Progress Bar:\\*\\*.*|**Progress Bar:** $BAR ($PERCENT%)|" README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Auto-update progress tracker" || echo "No changes"
+          git push
