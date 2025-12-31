@@ -2,24 +2,52 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
 ![GitHub](https://img.shields.io/badge/GitHub-Daily%20Commits-black)
 ![Challenge](https://img.shields.io/badge/Challenge-100%20Days%20of%20SQL-green)
-![Progress](https://img.shields.io/github/commit-activity/m/YOUR_GITHUB_USERNAME/100-days-of-sql?label=Progress&color=green)
-![Days](https://img.shields.io/badge/Days%20Completed-1%2F100-blue)
+![Progress](https://img.shields.io/github/commit-activity/m/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME?label=Progress&color=green)
 
+# 🚀 SQL Daily Practice – 100 Days of SQL
 
-# sql-daily-practice
-Daily SQL practice for Data Analyst / Data Science interviews
+Daily SQL practice for **Data Analyst / Data Science internship & interview preparation**.
 
+This repository documents my **100 Days of SQL Challenge**, where I practice SQL daily and maintain a consistent GitHub contribution streak.
 
-# SQL Daily Practice 🚀
+---
 
-This repository contains my daily SQL practice for Data Analyst and Data Science internship preparation.
+## 📊 Challenge Progress
 
-## Topics Covered
-- Basic SQL queries
-- Filtering and conditions
-- Joins
-- Aggregations
-- Subqueries
+**Progress:** 0 / 100 Days Completed  
+**Progress Bar:** ▱▱▱▱▱▱▱▱▱▱ (0%)
+
+> ⏱️ This section is **auto-updated** by a GitHub Action based on completed `DayXX` folders.
+
+---
+
+## 🎯 Goals
+
+- Build strong SQL fundamentals and advanced querying skills  
+- Prepare for **Data Analyst / Data Scientist interviews**  
+- Practice real-world, business-oriented SQL problems  
+- Maintain a **100-day GitHub contribution streak**  
+- Create a structured, public SQL portfolio  
+
+---
+
+## 📂 Repository Structure
+100-days-of-sql/
+│
+├── README.md
+│
+├── Day01/
+│ ├── problem.md
+│ ├── solution.sql
+│ └── explanation.md
+│
+├── Day02/
+│ ├── problem.md
+│ ├── solution.sql
+│ └── explanation.md
+│
+└── ...
+
 
 📅 Started on: Day 1
 
@@ -31,15 +59,11 @@ I am committing to practicing **SQL every day for 100 days** to strengthen my sk
 This repository contains **daily SQL problems, solutions, and explanations**, progressing from basics to advanced, interview-level SQL.
 
 
-## 🎯 Goals
+Each day includes:
+- **problem.md** → SQL problem statement  
+- **solution.sql** → SQL queries  
+- **explanation.md** → Clear explanation of logic  
 
-* Build strong SQL fundamentals and advanced querying skills
-* Prepare for **Data Analyst / Data Scientist interviews**
-* Practice real-world, business-oriented SQL problems
-* Maintain a **100-day GitHub contribution streak**
-* Create a structured SQL portfolio
-
----
           
           ## 📂 Repository Structure
           
