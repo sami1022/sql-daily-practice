@@ -4,7 +4,7 @@
 ![Challenge](https://img.shields.io/badge/Challenge-100%20Days%20of%20SQL-success)
 ![Progress](https://img.shields.io/github/commit-activity/m/sami1022/sql-daily-practice?label=Progress&color=brightgreen)
 
-![Days](https://img.shields.io/badge/Days%20Completed-1%2F100-blue)
+
 
 
 # 🚀 SQL Daily Practice – 100 Days of SQL
