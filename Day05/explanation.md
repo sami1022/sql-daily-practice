@@ -1,17 +1,15 @@
 ### Explanation
 
-- DISTINCT is used to remove duplicate values from the result set.
-- It applies to **all columns** listed in the SELECT clause.
-- When multiple columns are used with DISTINCT, the combination of values must be unique.
-- DISTINCT is commonly used with:
-  - SELECT
-  - COUNT
-  - ORDER BY
-- COUNT(DISTINCT column) is frequently asked in SQL interviews.
+- ORDER BY is used to sort the result set of a query.
+- ASC sorts data in ascending order (default).
+- DESC sorts data in descending order.
+- Multiple columns can be used in ORDER BY to define secondary sorting.
+- ORDER BY is always written at the end of a SELECT statement.
+- ORDER BY can be combined with WHERE and DISTINCT.
 
 Common Interview Traps:
-- DISTINCT applies to the entire row, not a single column
-- DISTINCT cannot be used directly with SELECT *
-- ORDER BY columns must appear in SELECT when DISTINCT is used (in some databases)
+- Forgetting that ASC is the default sorting order
+- Using ORDER BY before WHERE (incorrect)
+- Sorting without understanding column precedence
 
-DISTINCT helps clean data and is widely used in analytics queries.
+ORDER BY is widely used in reporting and analytics queries.
