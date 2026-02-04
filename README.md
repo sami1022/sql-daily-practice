@@ -17,8 +17,8 @@ This repository documents my **100 Days of SQL Challenge**, where I practice SQL
 
 ## 📊 Challenge Progress
 
-**Progress:** 35 / 100 Days Completed
-**Progress Bar:** ▰▰▰▱▱▱▱▱▱▱ (35%)
+**Progress:** 36 / 100 Days Completed
+**Progress Bar:** ▰▰▰▱▱▱▱▱▱▱ (36%)
 
 > ⏱️ This section is auto-updated by a GitHub Action based on completed `DayXX` folders.
 
