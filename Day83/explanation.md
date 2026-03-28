@@ -14,6 +14,7 @@ Function:
 - Returns a value
 - Can be used in SELECT
 
+
 Stored Procedure:
 - Performs actions
 - Does not return value directly
