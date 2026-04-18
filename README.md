@@ -257,5 +257,52 @@ By the end of this challenge, I will have:
 * 100 days of GitHub consistency
 
 
+## 🏁 Final Project Highlight (Day 98)
 
+📊 **E-commerce SQL Analysis Project**
+
+In this project, I performed:
+
+- Revenue analysis (monthly growth)
+- Customer segmentation (top & inactive users)
+- Product category performance
+- Retention rate calculation
+- Running revenue trends
+
+💡 This project demonstrates:
+- Real-world SQL usage
+- Business understanding
+- Analytical thinking
+
+---
+
+## 📈 Progress Tracker
+
+**Progress:** 99 / 100 Days Completed  
+**Progress Bar:** ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ (99%)
+
+---
+
+## 🧠 Skills Gained
+
+- SQL Fundamentals & Advanced Queries  
+- Joins, Subqueries, Window Functions  
+- Data Cleaning & Transformation  
+- Query Optimization  
+- Business Analytics with SQL  
+
+---
+
+## 💼 Use This Project For
+
+- Data Analyst Internship applications  
+- Resume projects  
+- Portfolio showcase  
+- Interview preparation  
+
+---
+
+## ⭐ If you found this useful
+
+Give this repo a ⭐ on GitHub!
 
