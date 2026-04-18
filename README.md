@@ -278,8 +278,8 @@ In this project, I performed:
 
 ## 📈 Progress Tracker
 
-**Progress:** 99 / 100 Days Completed  
-**Progress Bar:** ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ (99%)
+**Progress:** 97 / 100 Days Completed
+**Progress Bar:** ▰▰▰▰▰▰▰▰▰▱ (97%)
 
 ---
 
